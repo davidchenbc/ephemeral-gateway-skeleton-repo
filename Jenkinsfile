@@ -21,7 +21,8 @@ pipeline {
                 sh '''pwd
                 ls -l
                 ./gradlew clean
-                        ./gradlew build'''
+                ./gradlew build
+                ls deployment/build/gateway/ -l'''
 
             }
         }
