@@ -4,4 +4,4 @@
  *  of the MIT license.  See the LICENSE file for details.
  */
 
-rootProject.name = 'ephemeral_gateway'
+rootProject.name = 'ephemeralgateway'

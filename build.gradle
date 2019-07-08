@@ -19,7 +19,7 @@ buildscript {
 
 apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
 apply plugin: 'com.ca.apim.gateway.gateway-developer-plugin'
-apply plugin:'base'
+apply plugin: 'base'
 
 group '<my.group.id>'
 version = '1.0.0'
