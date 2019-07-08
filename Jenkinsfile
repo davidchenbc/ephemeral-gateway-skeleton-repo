@@ -9,11 +9,13 @@ pipeline {
     }
 
     stages {
+    /*
         stage('Pull from Git') {
             steps {
                 git "${env.GIT_REPOSITORY}"
             }
         }
+        */
         stage('Gradle Preparation & Build') {
             steps {
                 sh '''pwd
