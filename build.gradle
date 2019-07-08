@@ -28,7 +28,7 @@ GatewayConnection {
 }
 
 GatewayExportConfig {
-    folderPath = '/<project-folder>'
+    folderPath = '/'
 }
 
 repositories {
