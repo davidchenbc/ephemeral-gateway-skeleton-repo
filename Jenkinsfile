@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPOSITORY = 'https://github.com/YourGitUsername/ephemeral-gateway-skeleton-repo.git'
+        GIT_REPOSITORY = 'https://github.com/davidchenbc/ephemeral-gateway-skeleton-repo.git'
         NEW_IMAGE_NAME = 'gateway'
         NEW_IMAGE_TAG = "${BUILD_NUMBER}"
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
