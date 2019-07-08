@@ -22,7 +22,7 @@ pipeline {
                 ls -l
                 ./gradlew clean
                 ./gradlew build
-                ls deployment/build/gateway/ -l'''
+                ls -l'''
 
             }
         }
